@@ -30,9 +30,8 @@ This repository contains hands-on examples of EDA workflows, from initial data i
 eda-with-python/
 ├── content/
 │   └── sample_data/          # Dataset files used in analysis
-│       ├── Citi_Bike_Stations.geojson
-│       ├── HR_comma_sep.csv
-│       └── JC-202409-citibike-tripdata.csv
+│       ├── citi_bike_trip_data.csv
+│       ├── HR-Employee-Attrition.csv
 ├── citibike.ipynb            # Citibike trip data analysis
 ├── employee_attrition_analysis.ipynb  # HR attrition prediction analysis
 ├── LICENSE                   # MIT License
@@ -52,7 +51,7 @@ Exploratory analysis of Citibike trip data examining usage patterns, station pop
 - Geospatial visualization of station locations
 - User type segmentation (subscriber vs customer)
 
-**Dataset:** `JC-202409-citibike-tripdata.csv`, `Citi_Bike_Stations.geojson`
+**Dataset:** `citi_bike_trip_data.csv`
 
 ### 2. Employee Attrition Analysis (`employee_attrition_analysis.ipynb`)
 
@@ -66,7 +65,7 @@ Comprehensive analysis of employee attrition patterns using HR data. This notebo
 - Comparative analysis between retained and departed employees
 - Feature importance for attrition prediction
 
-**Dataset:** `HR_comma_sep.csv`
+**Dataset:** `HR-Employee-Attrition.csv`
 
 ## Getting Started
 
@@ -153,7 +152,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Citibike for providing open trip data
 - Kaggle for HR dataset availability
 - Python data science community for excellent libraries and tools
-
-## Contact
-
-For questions or suggestions, please open an issue on GitHub or reach out through the repository's issue tracker.
